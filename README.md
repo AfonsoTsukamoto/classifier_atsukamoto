@@ -95,3 +95,7 @@ Authors
 
 This library is released under the terms of the GNU LGPL. See LICENSE for more details.
 
+Contact
+=======
+
+* Afonso Tsukamoto (mailto:afonsotsukamoto@ist.utl.pt)

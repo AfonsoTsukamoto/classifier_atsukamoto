@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'classifier_atsukamoto'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2013-12-13'
   s.summary     = "Classifier with Redis"
   s.description = "Classifier with redis"
@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
                   "test/bayes/bayesian_test.rb"
                   ]
   s.add_runtime_dependency "ruby-stemmer", ["= 0.9.3"]
-  s.homepage    = 'http://rubygems.org/gems/classifier_atsukamoto'
+  s.homepage    = 'https://github.com/AfonsoTsukamoto/classifier_atsukamoto'
   s.license     = 'GNU'
 end
