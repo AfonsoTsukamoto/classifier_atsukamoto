@@ -83,7 +83,7 @@ class Bayes
 	def classifications(text)
 		score = Hash.new
 		# actual categories saved in the beggining but each do |category|
-		@categories.names.each do |category, category_words|
+		@categories.each do |category, category_words|
 			score[category.to_s] = 0
 
 			# total = category_words.values.inject(0) {|sum, element| sum+element}

@@ -111,7 +111,7 @@ module Classifier
 
 		def get_by_wild_keys(category)
 			wildlings = []
-			$redis.keys("#{escape_category(category)}:*").each do |key|
+			$redis.keys("#{escape_lang}:#{escape_category(category)}:*").each do |key|
 				wildlings << get_by_key(key).to_i
 			end
 			wildlings
