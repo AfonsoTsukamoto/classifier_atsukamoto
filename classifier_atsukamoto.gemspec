@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'classifier_atsukamoto'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2013-12-13'
   s.summary     = "Classifier with Redis"
   s.description = "Classifier with redis"

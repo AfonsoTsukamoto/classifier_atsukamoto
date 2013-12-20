@@ -87,7 +87,11 @@ class Bayes
 			score[category.to_s] = 0
 
 			# total = category_words.values.inject(0) {|sum, element| sum+element}
-			total = category_words.inject(0) { |sum, element| sum + element }
+			begin
+				total = category_words.inject(0) { |sum, element| sum + element }
+			rescue
+				raise "Bayes needs to be trained before trying to classify"
+			end
 
 			text.word_hash(@stemmer).each do |word, count|
 				#s = category_words.has_key?(word) ? category_words[word] : 0.1
